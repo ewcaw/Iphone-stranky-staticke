@@ -1,0 +1,87 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGACE */
+nav {
+    background: rgba(0,0,0,0.8);
+}
+
+nav ul{
+    width: 1020px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    width: 145px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+        
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    /*text-decoration:underline;*/
+    border-bottom: 2px solid #dad5d3;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  /* MAIN */
+.firstPhoto {
+    background: black;
+}
+
+.firstPhoto img {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 90px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 110px;
+
+}
+
+main h2 span {
+    font-size: 50px;
+}
+
+.section1 img {
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+    transform: rotate(10deg);
+}
+.section2 h2 {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+/* Patička */
+footer {
+    background: #f5f5f7;
+    color: #86868b;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/*Macbook stránka */
+
+.macbook-text {
+    font-size: 50px;
+}
